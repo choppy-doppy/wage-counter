@@ -4,6 +4,9 @@
 using namespace std;
 
 void displayTime(int hours, int minutes, int seconds, int milliseconds) {
+
+    system("cls");
+
     cout << hours << ":"
          << minutes << ":"
          << seconds << ":"
@@ -41,6 +44,7 @@ int main() {
         }
 
         displayTime(hour, minute, second, millisecond);
+
     }
 }
 
