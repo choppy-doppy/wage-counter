@@ -3,14 +3,12 @@
 
 using namespace std;
 
-void displayTime(int hours, int minutes, int seconds, int milliseconds) {
+void displayTime(int hour, int minute, int second, int millisecond) {
 
-    system("cls");
-
-    cout << hours << ":"
-         << minutes << ":"
-         << seconds << ":"
-         << milliseconds << endl;
+    cout << hour << ":"
+         << minute << ":"
+         << second << ":"
+         << millisecond << endl;
 }
 
 int main() {
@@ -33,7 +31,6 @@ int main() {
             minute++;
             millisecond = 0;
             second = 0;
-            minute = 0;
         }
 
         if (minute > 59) {
@@ -44,7 +41,7 @@ int main() {
         }
 
         displayTime(hour, minute, second, millisecond);
-
     }
 }
+
 
