@@ -3,33 +3,43 @@
 
 using namespace std;
 
-void displayTime(float dollars) {
+void displayTime(int hours, int minutes, int seconds) {
+    system("cls");
 
-    cout << "$" << dollars << endl;
+    cout << hours << ":"
+         << minutes << ":"
+         << seconds << endl;
+
 }
 
 int main() {
 
     cout << "Enter Wage" << endl;
 
-    float userWageInHours;
-    cin >> userWageInHours;
+    int userWage;
+    cin >> userWage;
 
-    float dollars = 0.00;
-    float milliseconds = 0;
-
+    int hour = 0;
+    int minute = 0;
+    int second = 0;
 
     for ( ; ; ) {
-        Sleep(1);
+        Sleep(1000);
         // system("CLS");
 
-        milliseconds++;
+        second++;
 
-        float minutes = ((milliseconds / 1000) / 60);
+        if(second > 59) {
+            minute++;
+            second = 0;
+        }
 
-        dollars = minutes;
+        if(minute > 59) {
+            hour++;
+            minute = 0;
+        }
 
-        displayTime(dollars);
+        displayTime(hour, minute, second);
     }
 }
 
