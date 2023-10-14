@@ -87,6 +87,9 @@
 		<Unit filename="C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/main.cpp">
 			<Option target="wage_counter"/>
 		</Unit>
+		<Unit filename="C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/stopwatch.cpp">
+			<Option target="wage_counter"/>
+		</Unit>
 		<Unit filename="C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wage_counter.dir\build.make CMakeFiles/wage_counter.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stopwatch.obj: stopwatch.cpp.obj
+.PHONY : stopwatch.obj
+
+# target to build an object file
+stopwatch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wage_counter.dir\build.make CMakeFiles/wage_counter.dir/stopwatch.cpp.obj
+.PHONY : stopwatch.cpp.obj
+
+stopwatch.i: stopwatch.cpp.i
+.PHONY : stopwatch.i
+
+# target to preprocess a source file
+stopwatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wage_counter.dir\build.make CMakeFiles/wage_counter.dir/stopwatch.cpp.i
+.PHONY : stopwatch.cpp.i
+
+stopwatch.s: stopwatch.cpp.s
+.PHONY : stopwatch.s
+
+# target to generate assembly for a file
+stopwatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wage_counter.dir\build.make CMakeFiles/wage_counter.dir/stopwatch.cpp.s
+.PHONY : stopwatch.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... stopwatch.obj
+	@echo ... stopwatch.i
+	@echo ... stopwatch.s
 .PHONY : help
 
 

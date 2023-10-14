@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wage_counter.dir/main.cpp.obj"
   "CMakeFiles/wage_counter.dir/main.cpp.obj.d"
+  "CMakeFiles/wage_counter.dir/stopwatch.cpp.obj"
+  "CMakeFiles/wage_counter.dir/stopwatch.cpp.obj.d"
   "libwage_counter.dll.a"
   "wage_counter.exe"
   "wage_counter.exe.manifest"

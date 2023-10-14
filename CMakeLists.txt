@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(wage_counter
-        main.cpp)
+        main.cpp
+        "stopwatch.cpp"
+        stopwatch.cpp
+        stopwatch.cpp
+        stopwatch.cpp)

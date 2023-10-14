@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/main.cpp" "CMakeFiles/wage_counter.dir/main.cpp.obj" "gcc" "CMakeFiles/wage_counter.dir/main.cpp.obj.d"
+  "C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/stopwatch.cpp" "CMakeFiles/wage_counter.dir/stopwatch.cpp.obj" "gcc" "CMakeFiles/wage_counter.dir/stopwatch.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
