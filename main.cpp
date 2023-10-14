@@ -16,18 +16,23 @@ int main() {
 
     cout << "Enter Wage" << endl;
 
-    int userWage;
+    double userWage;
     cin >> userWage;
 
     int hour = 0;
     int minute = 0;
     int second = 0;
 
+    double wageSecond = 0;
+
     for ( ; ; ) {
         Sleep(1000);
         // system("CLS");
 
         second++;
+
+        wageSecond++;
+        double calculatedWage = wageSecond * (userWage / 3600);
 
         if(second > 59) {
             minute++;
@@ -40,6 +45,8 @@ int main() {
         }
 
         displayTime(hour, minute, second);
+
+        cout << calculatedWage << endl;
     }
 }
 

@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "wage_counter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wage_counter-Debug-b04cd624477ef70deb07.json",
+					"jsonFile" : "target-wage_counter-Debug-6ee8357627340c7fa71b.json",
 					"name" : "wage_counter",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/chop/Documents/GitHub/wage-counter/cmake-build-debug",
-		"source" : "C:/Users/chop/Documents/GitHub/wage-counter"
+		"build" : "C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter/cmake-build-debug",
+		"source" : "C:/Users/kaedo/OneDrive/Documents/GitHub/wage-counter"
 	},
 	"version" : 
 	{
