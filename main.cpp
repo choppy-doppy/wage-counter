@@ -1,5 +1,7 @@
 #include <iostream>
 #include <windows.h>
+#include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -16,14 +18,14 @@ int main() {
 
     cout << "Enter Wage" << endl;
 
-    double userWage;
+    float userWage;
     cin >> userWage;
 
     int hour = 0;
     int minute = 0;
     int second = 0;
 
-    double wageSecond = 0;
+    float wageSecond = 0.00;
 
     for ( ; ; ) {
         Sleep(1000);
@@ -32,7 +34,9 @@ int main() {
         second++;
 
         wageSecond++;
-        double calculatedWage = wageSecond * (userWage / 3600);
+        float calculatedWage = wageSecond * (userWage / 3600);
+
+        float roundedWage = roundf(calculatedWage * 100) / 100;
 
         if(second > 59) {
             minute++;
@@ -46,7 +50,7 @@ int main() {
 
         displayTime(hour, minute, second);
 
-        cout << calculatedWage << endl;
+        cout << "$" << roundedWage << endl;
     }
 }
 

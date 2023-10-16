@@ -58,6 +58,15 @@ build CMakeFiles/wage_counter.dir/main.cpp.obj: CXX_COMPILER__wage_counter_unsca
   TARGET_COMPILE_PDB = CMakeFiles\wage_counter.dir\
   TARGET_PDB = wage_counter.pdb
 
+build CMakeFiles/wage_counter.dir/stopwatch.cpp.obj: CXX_COMPILER__wage_counter_unscanned_Debug C$:/Users/chop/Documents/GitHub/wage-counter/stopwatch.cpp || cmake_object_order_depends_target_wage_counter
+  DEP_FILE = CMakeFiles\wage_counter.dir\stopwatch.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/chop/Documents/GitHub/wage-counter/.
+  OBJECT_DIR = CMakeFiles\wage_counter.dir
+  OBJECT_FILE_DIR = CMakeFiles\wage_counter.dir
+  TARGET_COMPILE_PDB = CMakeFiles\wage_counter.dir\
+  TARGET_PDB = wage_counter.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target wage_counter
@@ -66,7 +75,7 @@ build CMakeFiles/wage_counter.dir/main.cpp.obj: CXX_COMPILER__wage_counter_unsca
 #############################################
 # Link the executable wage_counter.exe
 
-build wage_counter.exe: CXX_EXECUTABLE_LINKER__wage_counter_Debug CMakeFiles/wage_counter.dir/main.cpp.obj
+build wage_counter.exe: CXX_EXECUTABLE_LINKER__wage_counter_Debug CMakeFiles/wage_counter.dir/main.cpp.obj CMakeFiles/wage_counter.dir/stopwatch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\wage_counter.dir
